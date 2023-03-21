@@ -1,6 +1,6 @@
 import Barikoi from "../dist/index.js";
 
-const BKoi = new Barikoi("NDQ0OTo0RlVHVlBYTVU5");
+const BKoi = new Barikoi("YOUR_API_KEY_HERE");
 
 const x = async () => {
 	const res = await BKoi.ReverseGeocode({
